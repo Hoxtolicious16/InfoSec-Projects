@@ -6,8 +6,8 @@ Keylogger
   Simple keylogger to log all keyboard inputs, will be put on my home server to make sure no one has access to it except me.
   
   ideas to implement:
-    get MAC and or IP address of the user to identify the device.
-    split log.txt file into more to avoid big files
+    intercept SSH/remote connections and log IP address of the user to identify the device.
+    split log.txt file into more files to avoid big files
     auto start the python script on server start up.
 
   How to use:
